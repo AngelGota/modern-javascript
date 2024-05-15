@@ -17,3 +17,6 @@ const arreglo3 = arreglo2.map(function (numero) {
 console.log(arreglo);
 console.log(arreglo2);
 console.log(arreglo3);
+
+// documentacion:
+// https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/map
