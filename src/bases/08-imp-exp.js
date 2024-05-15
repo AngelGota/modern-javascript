@@ -19,11 +19,13 @@ import heroes, { owners } from "../data/heroes.js"; // imp snipet
 
 // Resumido 2
 const getHeroById = (id) => heroes.find((heroe) => heroe.id === id);
-console.log(getHeroById(2));
+// console.log(getHeroById(2));
 
 const getHeroByOwner = (owner) =>
   heroes.filter((heroe) => heroe.owner === owner);
-console.log(getHeroByOwner("DC"));
-console.log(getHeroByOwner("Marvel"));
+// console.log(getHeroByOwner("DC"));
+// console.log(getHeroByOwner("Marvel"));
 
-console.log(owners);
+// console.log(owners);
+
+export { getHeroById, getHeroByOwner };
